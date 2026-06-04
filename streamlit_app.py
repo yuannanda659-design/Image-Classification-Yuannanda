@@ -7,7 +7,7 @@ import os
 
 st.set_page_config(page_title="Klasifikasi Buah", page_icon="🍇")
 
-st.title("🍇 Klasifikasi Buah (Merah vs Anggur)")
+st.title("🍇 Klasifikasi Buah (Merah vs Hijau)")
 
 @st.cache_resource
 def load_model(model_path):
