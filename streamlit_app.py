@@ -5,9 +5,9 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 import os
 
-st.set_page_config(page_title="Klasifikasi Buah", page_icon="🍎")
+st.set_page_config(page_title="Klasifikasi Buah", page_icon="🍇")
 
-st.title("🍎 Klasifikasi Buah (Apple vs Mango)")
+st.title("🍇 Klasifikasi Buah (Merah vs Anggur)")
 
 @st.cache_resource
 def load_model(model_path):
